@@ -1,0 +1,145 @@
+// home__part--start
+#banner {
+    background-color: $color-primary;
+    padding: 22px 0 80px 0;
+    padding-top: 180px;
+
+    .banner__main {
+        margin-top: 30px;
+
+        .banner__text {
+            margin-top: 90px;
+            position: relative;
+
+            h2 {
+                position: relative;
+                color: $color-white;
+                font-family: $font-family;
+                font-size: 72px;
+                font-weight: 600;
+                margin-bottom: 24px;
+            }
+
+            .img__one {
+                position: absolute;
+                left: -35px;
+                top: -30px;
+            }
+
+            .img__two {
+                position: absolute;
+                left: 690px;
+                top: -13px;
+            }
+
+            .img__three {
+                position: absolute;
+                left: 600px;
+                top: 350px;
+            }
+
+            p {
+                color: $color-white;
+                font-family: $font-family-two;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 140%;
+                margin-bottom: 45px;
+            }
+        }
+
+        .mobile {
+            position: relative;
+        }
+    }
+}
+
+// banner part end
+// about part start
+#about__part {
+    padding: 168px 0px 280px 0;
+
+    .about-text {
+        & h5 {
+            font-family: 'Open Sans';
+            font-size: 24px;
+            font-weight: 400;
+            color: #2E67DB;
+            margin-bottom: 12px;
+        }
+
+        & h3 {
+            font-family: 'Open Sans';
+            font-size: 36px;
+            font-weight: 600;
+            color: #000000;
+            margin-bottom: 12px;
+        }
+
+        & p {
+            font-family: 'Open Sans';
+            font-size: 16px;
+            font-weight: 400;
+            color: #333333;
+            line-height: 150%;
+
+        }
+    }
+
+}
+
+// about part end
+
+// offer part start
+#offer {
+    padding: 225px 0 150px 0;
+    background-color: #F3F2FF;
+
+    .offer__main {
+        display: flex;
+
+        .offer-item-one {
+            padding: 0;
+            width: 50%;
+        }
+
+        .offer__item--two {}
+    }
+
+}
+
+// offer part end
+// update part start
+#update__news {
+    padding: 88px 0px 142px 0;
+
+    .update__main {
+        margin-top: 42px;
+    }
+
+}
+
+// update part end
+// working part start
+#working{
+    padding: 88px 0 120px 0;
+}
+// working part end
+// category part start
+#category{
+    padding: 89px 0px 147px 0;
+    background-color: #F5F5FC;
+}
+// category part end
+
+
+// process part start
+#process{
+    padding: 88px 0px 114px 0;
+    .process__content{
+        margin-top: 50px;
+    }
+}
+// process part end
+
+

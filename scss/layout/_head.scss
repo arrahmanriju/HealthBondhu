@@ -1,0 +1,75 @@
+//====================== Head__part--start
+#navbar {
+    background-color: #2C62D6;
+    padding: 20px 0;
+    position: fixed;
+    z-index: 99;
+    top: 0px;
+    width: 100%;
+
+    &.nav__back {
+        background-color: #0e45bb;
+    }
+
+    .navbar__main {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: #548BFF 2px solid;
+
+        .nav__text {
+            margin-bottom: 35px;
+
+            p {
+                font-family: 'Roboto';
+                font-size: 18px;
+                font-weight: 400;
+                margin-top: 12px;
+                color: $color-white;
+            }
+        }
+    }
+
+    .menu__bar {
+        margin-top: 26px;
+
+        .menu {
+            ul {
+                li {
+                    margin-left: 32px;
+                    margin-right: 33px;
+
+                    a {
+                        color: white;
+                        padding-right: 0;
+                        padding-left: 0;
+                        font-family: $font-family;
+                        font-size: 18px;
+                        font-weight: 400;
+                        color: $color-white;
+                    }
+
+                    ul {
+                        li {
+                            a {
+                                color: black;
+                            }
+                        }
+                    }
+
+                    .dropdown-menu {
+                        background-color: white;
+                        color: black;
+
+                    }
+                }
+            }
+        }
+
+        .dropdown-item:focus,
+        .dropdown-item:hover {
+            color: $color-primary-dark;
+            background-color: white;
+        }
+    }
+
+}

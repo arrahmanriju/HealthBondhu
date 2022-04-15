@@ -1,0 +1,34 @@
+.common__head{
+    text-align: center;
+    & h5{
+        font-family: 'Open Sans';
+        font-size: 24px;
+        font-weight: 400;
+        color: #2C62D6;
+    }
+    & h2{
+        font-family: 'Open Sans';
+        font-size: 36px;
+        font-weight: 600;
+        color: #333333;
+    }
+}
+
+// second head
+.second__head{
+    & h5 {
+        font-family: 'Open Sans';
+        font-size: 24px;
+        font-weight: 400;
+        color: #2E67DB;
+        margin-bottom: 12px;
+    }
+
+    & h3 {
+        font-family: 'Open Sans';
+        font-size: 36px;
+        font-weight: 600;
+        color: #000000;
+        margin-bottom: 12px;
+    }
+}

@@ -1,0 +1,27 @@
+// Abstracts
+@import "abstract/variables";
+
+// Base
+@import "base/base";
+
+// Components
+@import "components/button";
+@import "components/card";
+@import "components/icon";
+
+
+
+
+// Layouts
+@import "layout/footer";
+@import "layout/head";
+@import "layout/common__head";
+@import "layout/popUp";
+
+
+
+// pages
+@import "pages/home";
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Oxanium:wght@600&family=Poppins:wght@400;500;800&family=Roboto:wght@400;500;900&display=swap');

@@ -1,0 +1,943 @@
+.mobile {
+    position: relative;
+}
+
+.card__one {
+    background-color: white;
+    width: 185px;
+    height: 75px;
+    border-radius: 10px;
+    position: absolute;
+    left: 22px;
+    top: 177px;
+    color: $color-primary;
+    box-shadow: 3.21112px 3.21112px 30.5056px rgba(0, 0, 0, 0.2);
+    transition: all linear 0.4s;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    .containt {
+        padding: 18px 6px;
+        display: flex;
+
+        & p {
+            font-family: $font-family-three;
+            font-size: 12px;
+            font-weight: 500;
+            margin-left: 5px;
+        }
+    }
+}
+
+.card__two {
+    background-color: white;
+    width: 185px;
+    height: 75px;
+    border-radius: 10px;
+    position: absolute;
+    left: 295px;
+    top: 238px;
+    color: $color-primary;
+    box-shadow: 3.21112px 3.21112px 30.5056px rgba(0, 0, 0, 0.2);
+    transition: all linear 0.4s;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    .containt {
+        padding: 18px 6px;
+        display: flex;
+
+        & p {
+            font-family: $font-family-three;
+            font-size: 12px;
+            font-weight: 500;
+            margin-left: 5px;
+        }
+    }
+}
+
+.card__three {
+    background-color: white;
+    width: 240px;
+    height: 80px;
+    border-radius: 10px;
+    position: absolute;
+    left: 250px;
+    top: 377px;
+    color: $color-primary;
+    box-shadow: 3.21112px 3.21112px 30.5056px rgba(0, 0, 0, 0.2);
+    transition: all linear 0.4s;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    .containt {
+        padding: 18px 6px;
+        display: flex;
+
+        & p {
+            font-family: $font-family-three;
+            font-size: 12px;
+            font-weight: 500;
+
+            & i {
+                margin-left: 22px;
+            }
+        }
+
+        & h6 {
+            font-family: $font-family;
+            font-size: 8px;
+            font-weight: 400;
+        }
+    }
+}
+
+.card__four {
+    position: absolute;
+    left: -75px;
+    top: 350px;
+    transition: all linear 0.4s;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+// about part card
+.about__card {
+    margin-top: 62px;
+
+    & .about__card--item {
+        display: flex;
+        margin-bottom: 26px;
+
+        .about__card--one {
+            width: 278px;
+            height: 100px;
+            padding: 20px;
+            background-color: #E3E9F6;
+            text-align: center;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all linear 0.4s;
+            margin-right: 20px;
+            color: black;
+
+            & h2 {
+                font-family: 'Poppins';
+                font-size: 28px;
+                font-weight: 800;
+            }
+
+            & h5 {
+                font-family: 'Poppins';
+                font-size: 14px;
+                font-weight: 400;
+            }
+
+            &:hover {
+                box-shadow: 14px 20px 14px rgba(0, 0, 0, 0.14);
+                background-color: #2C62D6;
+                color: #ffffff;
+            }
+        }
+
+        .about__card--two {
+            width: 278px;
+            height: 100px;
+            padding: 20px;
+            background-color: #E4F1F0;
+            text-align: center;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all linear 0.4s;
+            color: black;
+
+            & h2 {
+                font-family: 'Poppins';
+                font-size: 28px;
+                font-weight: 800;
+            }
+
+            & h5 {
+                font-family: 'Poppins';
+                font-size: 14px;
+                font-weight: 400;
+            }
+
+            &:hover {
+                box-shadow: 14px 20px 14px rgba(0, 0, 0, 0.14);
+                background-color: #2C62D6;
+                color: #ffffff;
+            }
+
+        }
+    }
+
+    & .about__card--itemtwo {
+        display: flex;
+
+        .about__card--one {
+            width: 278px;
+            height: 100px;
+            padding: 20px;
+            background-color: #E2E4E8;
+            text-align: center;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all linear 0.4s;
+            margin-right: 20px;
+            color: #000000;
+
+            & h2 {
+                font-family: 'Poppins';
+                font-size: 28px;
+                font-weight: 800;
+            }
+
+            & h5 {
+                font-family: 'Poppins';
+                font-size: 14px;
+                font-weight: 400;
+            }
+
+            &:hover {
+                box-shadow: 14px 20px 14px rgba(0, 0, 0, 0.14);
+                background-color: #2C62D6;
+                color: #ffffff;
+            }
+        }
+
+        .about__card--two {
+            width: 278px;
+            height: 100px;
+            padding: 20px;
+            background-color: #F5F1EB;
+            text-align: center;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all linear 0.4s;
+            color: black;
+
+            & h2 {
+                font-family: 'Poppins';
+                font-size: 28px;
+                font-weight: 800;
+            }
+
+            & h5 {
+                font-family: 'Poppins';
+                font-size: 14px;
+                font-weight: 400;
+            }
+
+            &:hover {
+                box-shadow: 14px 20px 14px rgba(0, 0, 0, 0.14);
+                background-color: #2C62D6;
+                color: #ffffff;
+            }
+        }
+    }
+}
+
+// about img part start 
+.about__img--part {
+    position: relative;
+
+    .about__img--one {
+        width: 296px;
+        height: 280px;
+        position: absolute;
+        top: 125px;
+        left: 0px;
+        cursor: pointer;
+
+
+        &::after {
+            position: absolute;
+            content: '';
+            width: 0;
+            height: 100%;
+            background-color: rgba(245, 241, 235, 0.562);
+            top: 0;
+            left: 0;
+            border-radius: 15px;
+            transition: all linear 0.4s;
+        }
+
+        &:hover::after {
+            width: 100%;
+
+        }
+    }
+
+
+    .about__img--two {
+        width: 281px;
+        height: 276px;
+        position: absolute;
+        top: 0px;
+        left: 320px;
+        cursor: pointer;
+
+
+        &::after {
+            position: absolute;
+            content: '';
+            width: 0;
+            height: 100%;
+            background-color: rgba(245, 241, 235, 0.562);
+            top: 0;
+            left: 0;
+            border-radius: 15px;
+            transition: all linear 0.4s;
+        }
+
+        &:hover::after {
+            width: 100%;
+
+        }
+    }
+
+    .about__img--three {
+        width: 356px;
+        height: 338px;
+        position: absolute;
+        top: 300px;
+        left: 320px;
+        cursor: pointer;
+
+
+        &::after {
+            position: absolute;
+            content: '';
+            width: 0;
+            height: 100%;
+            background-color: rgba(245, 241, 235, 0.562);
+            top: 0;
+            left: 0;
+            border-radius: 15px;
+            transition: all linear 0.4s;
+        }
+
+        &:hover::after {
+            width: 100%;
+
+        }
+    }
+
+}
+
+
+// offer part start
+.offer__book--main--one {
+    display: flex;
+    margin-bottom: 20px;
+
+    .offer__book--one {
+        width: 278px;
+        height: 178px;
+        background-color: #E3E9F6;
+        border-radius: 15px;
+        padding: 20px;
+        display: flex;
+        transition: all linear 0.4s;
+        margin-right: 20px;
+        color: #000000;
+
+        .offer__book--one--item {
+            width: 60%;
+
+            & h4 {
+                font-family: 'Open Sans';
+                font-size: 24px;
+                font-weight: 500;
+                margin-bottom: 6px;
+            }
+
+            & h6 {
+                font-family: 'Open Sans';
+                font-size: 16px;
+                font-weight: 500;
+                margin-bottom: 6px;
+            }
+
+            & h3 {
+                font-family: 'Open Sans';
+                font-size: 22px;
+                font-weight: 600;
+
+                & span {
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .offer__book--two--item {
+            margin-left: 24px;
+
+            .circle {
+                width: 72px;
+                height: 72px;
+                background-color: #BFD3FF;
+                border-radius: 50%;
+                padding: 13px;
+
+            }
+        }
+
+        &:hover {
+            box-shadow: 14px 20px 14px rgba(0, 0, 0, 0.14);
+            background-color: #2C62D6;
+            color: white;
+        }
+
+        &:hover .circle {
+            background-color: #ffffff;
+        }
+    }
+
+    .offer__book--two {
+        width: 278px;
+        height: 178px;
+        background-color: #E4F1F0;
+        border-radius: 15px;
+        padding: 20px;
+        display: flex;
+        transition: all linear 0.4s;
+        margin-right: 20px;
+        color: #000000;
+
+        .offer__book--one--item {
+            width: 60%;
+
+            & h4 {
+                font-family: 'Open Sans';
+                font-size: 24px;
+                font-weight: 500;
+                margin-bottom: 6px;
+            }
+
+            & h6 {
+                font-family: 'Open Sans';
+                font-size: 16px;
+                font-weight: 500;
+                margin-bottom: 6px;
+            }
+
+            & h3 {
+                font-family: 'Open Sans';
+                font-size: 22px;
+                font-weight: 600;
+
+                & span {
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .offer__book--two--item {
+            margin-left: 24px;
+
+            .circle {
+                width: 72px;
+                height: 72px;
+                background-color: #BFD3FF;
+                border-radius: 50%;
+                padding: 13px;
+
+            }
+        }
+
+        &:hover {
+            box-shadow: 14px 20px 14px rgba(0, 0, 0, 0.14);
+            background-color: #2C62D6;
+            color: white;
+        }
+
+        &:hover .circle {
+            background-color: #ffffff;
+        }
+    }
+}
+
+.offer__book--main--two {
+    display: flex;
+    margin-bottom: 20px;
+
+    .offer__book--one {
+        width: 278px;
+        height: 178px;
+        background-color: #E4F1F0;
+        border-radius: 15px;
+        padding: 20px;
+        display: flex;
+        transition: all linear 0.4s;
+        margin-right: 20px;
+        color: #000000;
+
+        .offer__book--one--item {
+            width: 60%;
+
+            & h4 {
+                font-family: 'Open Sans';
+                font-size: 24px;
+                font-weight: 500;
+                margin-bottom: 6px;
+            }
+
+            & h6 {
+                font-family: 'Open Sans';
+                font-size: 16px;
+                font-weight: 500;
+                margin-bottom: 6px;
+            }
+
+            & h3 {
+                font-family: 'Open Sans';
+                font-size: 22px;
+                font-weight: 600;
+
+                & span {
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .offer__book--two--item {
+            margin-left: 24px;
+
+            .circle {
+                width: 72px;
+                height: 72px;
+                background-color: #BFD3FF;
+                border-radius: 50%;
+                padding: 13px;
+
+            }
+        }
+
+        &:hover {
+            box-shadow: 14px 20px 14px rgba(0, 0, 0, 0.14);
+            background-color: #2C62D6;
+            color: white;
+        }
+
+        &:hover .circle {
+            background-color: #ffffff;
+        }
+    }
+
+    .offer__book--two {
+        width: 278px;
+        height: 178px;
+        background-color: #E2E4E8;
+        border-radius: 15px;
+        padding: 20px;
+        display: flex;
+        transition: all linear 0.4s;
+        margin-right: 20px;
+        color: #000000;
+
+        .offer__book--one--item {
+            width: 60%;
+
+            & h4 {
+                font-family: 'Open Sans';
+                font-size: 24px;
+                font-weight: 500;
+                margin-bottom: 6px;
+            }
+
+            & h6 {
+                font-family: 'Open Sans';
+                font-size: 16px;
+                font-weight: 500;
+                margin-bottom: 6px;
+            }
+
+            & h3 {
+                font-family: 'Open Sans';
+                font-size: 22px;
+                font-weight: 600;
+
+                & span {
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .offer__book--two--item {
+            margin-left: 24px;
+
+            .circle {
+                width: 72px;
+                height: 72px;
+                background-color: #BFD3FF;
+                border-radius: 50%;
+                padding: 13px;
+
+            }
+        }
+
+        &:hover {
+            box-shadow: 14px 20px 14px rgba(0, 0, 0, 0.14);
+            background-color: #2C62D6;
+            color: white;
+        }
+
+        &:hover .circle {
+            background-color: #ffffff;
+        }
+    }
+}
+
+
+
+.offer__book--main--three {
+
+    .offer__book {
+        width: 575px;
+        height: 178px;
+        background-color: #F5F1EB;
+        border-radius: 15px;
+        padding: 20px;
+        display: flex;
+        transition: all linear 0.4s;
+        margin-right: 20px;
+        color: #000000;
+
+        .offer__book--one--item {
+            width: 60%;
+
+            & h4 {
+                font-family: 'Open Sans';
+                font-size: 24px;
+                font-weight: 500;
+                margin-bottom: 6px;
+            }
+
+            & h6 {
+                font-family: 'Open Sans';
+                font-size: 16px;
+                font-weight: 500;
+                margin-bottom: 6px;
+            }
+
+            & h3 {
+                font-family: 'Open Sans';
+                font-size: 22px;
+                font-weight: 600;
+
+                & span {
+                    font-size: 20px;
+                }
+            }
+        }
+
+        .offer__book--two--item {
+            margin-left: 140px;
+
+            .circle {
+                width: 72px;
+                height: 72px;
+                background-color: #BFD3FF;
+                border-radius: 50%;
+                padding: 13px;
+
+            }
+        }
+
+        &:hover {
+            box-shadow: 14px 20px 14px rgba(0, 0, 0, 0.14);
+            background-color: #2C62D6;
+            color: white;
+        }
+
+        &:hover .circle {
+            background-color: #ffffff;
+        }
+    }
+}
+
+
+
+// =========================================update news part start ==================================
+.update-card--one {
+    background-color: #E4F1F0;
+    border-radius: 15px;
+    transition: all linear 0.4s;
+
+    .update-text {
+
+        padding: 15px;
+
+        & h2 {
+            font-family: 'Open Sans';
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        & h5 {
+            margin-top: 4px;
+            font-family: 'Open Sans';
+            font-size: 14px;
+            font-weight: 400;
+            color: #333;
+            margin-bottom: 4px;
+        }
+
+        & a {
+            font-family: 'Open Sans';
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+
+    &:hover {
+        box-shadow: 16px 16px 25px rgba(0, 0, 0, 0.16);
+    }
+}
+
+.update-card--two {
+    background-color: #F5F1EB;
+    border-radius: 15px;
+    transition: all linear 0.4s;
+
+    .update-text {
+
+        padding: 15px;
+
+        & h2 {
+            font-family: 'Open Sans';
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        & h5 {
+            margin-top: 4px;
+            font-family: 'Open Sans';
+            font-size: 14px;
+            font-weight: 400;
+            color: #333;
+            margin-bottom: 4px;
+        }
+
+        & a {
+            font-family: 'Open Sans';
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+
+    &:hover {
+        box-shadow: 16px 16px 25px rgba(0, 0, 0, 0.16);
+    }
+}
+
+.update-card--three {
+    background-color: #E3E9F6;
+    border-radius: 15px;
+    transition: all linear 0.4s;
+
+    .update-text {
+
+        padding: 15px;
+
+        & h2 {
+            font-family: 'Open Sans';
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        & h5 {
+            margin-top: 4px;
+            font-family: 'Open Sans';
+            font-size: 14px;
+            font-weight: 400;
+            color: #333;
+            margin-bottom: 4px;
+        }
+
+        & a {
+            font-family: 'Open Sans';
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+
+    &:hover {
+        box-shadow: 16px 16px 25px rgba(0, 0, 0, 0.16);
+    }
+}
+
+.update-card--four {
+    background-color: #EBEBEB;
+    border-radius: 15px;
+    transition: all linear 0.4s;
+
+    .update-text {
+
+        padding: 15px;
+
+        & h2 {
+            font-family: 'Open Sans';
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        & h5 {
+            margin-top: 4px;
+            font-family: 'Open Sans';
+            font-size: 14px;
+            font-weight: 400;
+            color: #333;
+            margin-bottom: 4px;
+        }
+
+        & a {
+            font-family: 'Open Sans';
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+
+    &:hover {
+        box-shadow: 16px 16px 25px rgba(0, 0, 0, 0.16);
+    }
+}
+
+
+// working part css strat 
+.working__main {
+    margin-top: 42px;
+
+    & .working__item {
+        background-color: #2C62D6;
+        border-radius: 15px;
+        padding: 15px;
+        transition: all linear 0.4s;
+        cursor: pointer;
+
+        .work__item--head {
+            & h1 {
+                font-family: 'Oxanium';
+                font-size: 64px;
+                font-weight: 600;
+                color: #83AAFF;
+            }
+        }
+
+        .working__text {
+            & h3 {
+                font-family: 'Open Sans';
+                font-size: 24px;
+                font-weight: 500;
+                color: white;
+                margin-top: 20px;
+                margin-bottom: 12px;
+            }
+
+            & p {
+                font-family: 'Open Sans';
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                color: white;
+                margin-bottom: 86px;
+            }
+        }
+
+        &:hover {
+            box-shadow: 8px 8px 16px 8px rgba(0, 0, 0, 0.16);
+        }
+    }
+}
+
+
+// category part start
+#category {
+    .category__main {
+        margin-top: 56px;
+        .category__item {
+            background-color: #E3E9F6;
+            padding: 24px;
+            border-radius: 35px;
+            transition: all linear 0.4s;
+            cursor: pointer;
+            margin-bottom: 20px;
+
+            .circle {
+                width: 72px;
+                height: 72px;
+                background-color: #BFD3FF;
+                border-radius: 50%;
+                padding: 13px;
+                margin-bottom: 10px;
+            }
+
+            .cat__text {
+                h2 {
+                    font-family: 'Open Sans';
+                    font-size: 22px;
+                    font-weight: 500;
+                    margin-bottom: 22px;
+                }
+            }
+
+            .last__part {
+                display: flex;
+
+                .last__img {
+                    width: 68px;
+                    margin-right: 10px;
+                }
+
+                .last__text {
+                    & p {
+                        font-family: 'Open Sans';
+                        font-size: 15px;
+                        font-weight: 500;
+                        margin-top: 6px;
+                    }
+                }
+                .last__icon{
+                    color: #2C62D6;
+                    transition: all linear 0.4s;
+
+                    & i{
+                        font-size: 36px;
+                        margin-left: 155px;
+                    }
+                }
+            }
+            &:hover{
+                background-color: #2C62D6;
+                color: white;
+                box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
+            }
+            &:hover .last__icon{
+                color: white;
+            }
+            &:hover .circle{
+                background-color: white;
+            }
+        }
+        .cat-two{
+            background-color: #E2E4E8; 
+        }
+        .cat-three{
+            background-color: #E4F1F0;
+        }
+    }
+}

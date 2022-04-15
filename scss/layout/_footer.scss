@@ -1,0 +1,43 @@
+#footer {
+    background-color: #2E67DB;
+    padding: 115px 0px;
+    color: white;
+
+    .footer__content {
+        margin-top: 95px;
+
+        & ul {
+            & a{
+                color: white;
+            }
+            & li {
+                font-family: 'Open Sans';
+                font-size: 16px;
+                font-weight: 400;
+                margin-bottom: 18px;
+
+                & i {
+                    margin-right: 5px;
+                }
+
+                & span {
+                    margin-left: 26px;
+                }
+                .footer__icon{
+                    margin-top: 82px;
+                    margin-bottom: 40px;
+                    & a{
+                        color: white;
+                    }
+                    & i{
+                        font-size: 18px;
+                        margin-right: 22px;
+                    }
+                }
+                & h3{
+                    font-size: 28px;
+                }
+            }
+        }
+    }
+}
