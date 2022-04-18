@@ -488,8 +488,19 @@
 
 
 @media(max-width:575.98px) {
-
+    body {
+        width: fit-content;
+    }
     /* navbar part  */
+    #navbar .navbar__main {
+        margin-bottom: 10px;
+
+    }
+
+    #navbar .navber-main .logo {
+        margin-bottom: 10px;
+    }
+
     .nav__button {
         display: block;
         margin-bottom: 10px;
@@ -512,6 +523,8 @@
 
     .menu__bar .navbar-toggler {
         color: white;
+        position: absolute;
+        right: 0;
     }
 
     .menu__bar .navbar-toggler:focus {
@@ -698,20 +711,25 @@
     #offer {
         padding: 50px 5px 50px 5px;
     }
-    .offer__book--main--one{
+
+    .offer__book--main--one {
         margin-bottom: 10px;
     }
+
     .offer__book--main--one .offer__book--one .offer__book--one--item h4 {
         font-size: 15px;
         margin-bottom: 3px;
     }
+
     .offer__book--main--one .offer__book--one .offer__book--one--item h6 {
         font-size: 10px;
         margin-bottom: 3px;
     }
+
     .offer__book--main--one .offer__book--one .offer__book--one--item h3 {
         font-size: 16px;
     }
+
     .offer__book--main--one .offer__book--one .offer__book--one--item h3 span {
         font-size: 14px;
     }
@@ -722,11 +740,13 @@
         padding: 10px;
         margin-right: 10px;
     }
+
     .offer__book--main--one .offer__book--one .offer__book--two--item .circle {
         width: 50px;
         height: 50px;
         padding: 2px;
     }
+
     .offer__book--main--one .offer__book--one .offer__book--two--item {
         margin-left: 0px;
     }
@@ -735,13 +755,16 @@
         font-size: 15px;
         margin-bottom: 3px;
     }
+
     .offer__book--main--one .offer__book--two .offer__book--one--item h6 {
         font-size: 10px;
         margin-bottom: 3px;
     }
+
     .offer__book--main--one .offer__book--two .offer__book--one--item h3 {
         font-size: 16px;
     }
+
     .offer__book--main--one .offer__book--two .offer__book--one--item h3 span {
         font-size: 14px;
     }
@@ -752,11 +775,13 @@
         padding: 10px;
         margin-right: 10px;
     }
+
     .offer__book--main--one .offer__book--two .offer__book--two--item .circle {
         width: 50px;
         height: 50px;
         padding: 2px;
     }
+
     .offer__book--main--one .offer__book--two .offer__book--two--item {
         margin-left: 0px;
     }
@@ -765,13 +790,16 @@
         font-size: 15px;
         margin-bottom: 3px;
     }
+
     .offer__book--main--two .offer__book--one .offer__book--one--item h6 {
         font-size: 10px;
         margin-bottom: 3px;
     }
+
     .offer__book--main--two .offer__book--one .offer__book--one--item h3 {
         font-size: 16px;
     }
+
     .offer__book--main--two .offer__book--one .offer__book--one--item h3 span {
         font-size: 14px;
     }
@@ -782,27 +810,32 @@
         padding: 10px;
         margin-right: 10px;
     }
+
     .offer__book--main--two .offer__book--one .offer__book--two--item .circle {
         width: 50px;
         height: 50px;
         padding: 2px;
     }
+
     .offer__book--main--two .offer__book--one .offer__book--two--item {
         margin-left: 0px;
     }
 
-    
+
     .offer__book--main--two .offer__book--two .offer__book--one--item h4 {
         font-size: 15px;
         margin-bottom: 3px;
     }
+
     .offer__book--main--two .offer__book--two .offer__book--one--item h6 {
         font-size: 10px;
         margin-bottom: 3px;
     }
+
     .offer__book--main--two .offer__book--two .offer__book--one--item h3 {
         font-size: 16px;
     }
+
     .offer__book--main--two .offer__book--two .offer__book--one--item h3 span {
         font-size: 14px;
     }
@@ -813,14 +846,17 @@
         padding: 10px;
         margin-right: 10px;
     }
+
     .offer__book--main--two .offer__book--two .offer__book--two--item .circle {
         width: 50px;
         height: 50px;
         padding: 2px;
     }
+
     .offer__book--main--two .offer__book--two .offer__book--two--item {
         margin-left: 0px;
     }
+
     .offer__book--main--two {
         margin-bottom: 10px;
     }
@@ -831,6 +867,7 @@
         height: 178px;
         padding: 10px;
     }
+
     .offer__book--main--three .offer__book .offer__book--two--item {
         margin-left: 44px;
     }
