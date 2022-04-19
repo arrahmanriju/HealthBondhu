@@ -520,11 +520,10 @@
     #navbar .navbar__main .nav__text p {
         display: none;
     }
-
+   
     .menu__bar .navbar-toggler {
         color: white;
-        position: absolute;
-        right: 0;
+        
     }
 
     .menu__bar .navbar-toggler:focus {
@@ -715,163 +714,165 @@
     .offer__book--main--one {
         margin-bottom: 10px;
     }
-
     .offer__book--main--one .offer__book--one .offer__book--one--item h4 {
-        font-size: 15px;
-        margin-bottom: 3px;
+        font-size: 22px;   
     }
-
     .offer__book--main--one .offer__book--one .offer__book--one--item h6 {
-        font-size: 10px;
-        margin-bottom: 3px;
+        font-size: 14px; 
     }
-
     .offer__book--main--one .offer__book--one .offer__book--one--item h3 {
-        font-size: 16px;
+        font-size: 18px;
     }
-
     .offer__book--main--one .offer__book--one .offer__book--one--item h3 span {
         font-size: 14px;
     }
-
-    .offer__book--main--one .offer__book--one {
-        width: 150px;
-        height: 140px;
-        padding: 10px;
-        margin-right: 10px;
-    }
-
-    .offer__book--main--one .offer__book--one .offer__book--two--item .circle {
-        width: 50px;
-        height: 50px;
-        padding: 2px;
-    }
-
     .offer__book--main--one .offer__book--one .offer__book--two--item {
         margin-left: 0px;
     }
-
+    .offer__book--main--one .offer__book--one {
+        width: 255px;
+        height: 160px;
+        margin-right: 10px;
+    }
+    .offer__book--main--one .offer__book--one .offer__book--two--item .circle {
+        margin-left: 20px;
+    }
+    .offer__book--main--one {
+        margin-bottom: 10px;
+    }
     .offer__book--main--one .offer__book--two .offer__book--one--item h4 {
-        font-size: 15px;
-        margin-bottom: 3px;
+        font-size: 22px;   
     }
-
     .offer__book--main--one .offer__book--two .offer__book--one--item h6 {
-        font-size: 10px;
-        margin-bottom: 3px;
+        font-size: 14px; 
     }
-
     .offer__book--main--one .offer__book--two .offer__book--one--item h3 {
-        font-size: 16px;
+        font-size: 18px;
     }
-
     .offer__book--main--one .offer__book--two .offer__book--one--item h3 span {
         font-size: 14px;
     }
-
-    .offer__book--main--one .offer__book--two {
-        width: 150px;
-        height: 140px;
-        padding: 10px;
-        margin-right: 10px;
-    }
-
-    .offer__book--main--one .offer__book--two .offer__book--two--item .circle {
-        width: 50px;
-        height: 50px;
-        padding: 2px;
-    }
-
     .offer__book--main--one .offer__book--two .offer__book--two--item {
         margin-left: 0px;
     }
-
-    .offer__book--main--two .offer__book--one .offer__book--one--item h4 {
-        font-size: 15px;
-        margin-bottom: 3px;
-    }
-
-    .offer__book--main--two .offer__book--one .offer__book--one--item h6 {
-        font-size: 10px;
-        margin-bottom: 3px;
-    }
-
-    .offer__book--main--two .offer__book--one .offer__book--one--item h3 {
-        font-size: 16px;
-    }
-
-    .offer__book--main--two .offer__book--one .offer__book--one--item h3 span {
-        font-size: 14px;
-    }
-
-    .offer__book--main--two .offer__book--one {
-        width: 150px;
-        height: 140px;
-        padding: 10px;
+    .offer__book--main--one .offer__book--two {
+        width: 255px;
+        height: 160px;
         margin-right: 10px;
     }
-
-    .offer__book--main--two .offer__book--one .offer__book--two--item .circle {
-        width: 50px;
-        height: 50px;
-        padding: 2px;
+    .offer__book--main--one .offer__book--two .offer__book--two--item .circle {
+        margin-left: 20px;
     }
-
-    .offer__book--main--two .offer__book--one .offer__book--two--item {
-        margin-left: 0px;
-    }
-
-
-    .offer__book--main--two .offer__book--two .offer__book--one--item h4 {
-        font-size: 15px;
-        margin-bottom: 3px;
-    }
-
-    .offer__book--main--two .offer__book--two .offer__book--one--item h6 {
-        font-size: 10px;
-        margin-bottom: 3px;
-    }
-
-    .offer__book--main--two .offer__book--two .offer__book--one--item h3 {
-        font-size: 16px;
-    }
-
-    .offer__book--main--two .offer__book--two .offer__book--one--item h3 span {
-        font-size: 14px;
-    }
-
-    .offer__book--main--two .offer__book--two {
-        width: 150px;
-        height: 140px;
-        padding: 10px;
-        margin-right: 10px;
-    }
-
-    .offer__book--main--two .offer__book--two .offer__book--two--item .circle {
-        width: 50px;
-        height: 50px;
-        padding: 2px;
-    }
-
-    .offer__book--main--two .offer__book--two .offer__book--two--item {
-        margin-left: 0px;
-    }
-
     .offer__book--main--two {
         margin-bottom: 10px;
     }
-
-
+    .offer__book--main--two .offer__book--one .offer__book--one--item h4 {
+        font-size: 22px;   
+    }
+    .offer__book--main--two .offer__book--one .offer__book--one--item h6 {
+        font-size: 14px; 
+    }
+    .offer__book--main--two .offer__book--one .offer__book--one--item h3 {
+        font-size: 18px;
+    }
+    .offer__book--main--two .offer__book--one .offer__book--one--item h3 span {
+        font-size: 14px;
+    }
+    .offer__book--main--two .offer__book--one .offer__book--two--item {
+        margin-left: 0px;
+    }
+    .offer__book--main--two .offer__book--one {
+        width: 255px;
+        height: 160px;
+        margin-right: 10px;
+    }
+    .offer__book--main--two .offer__book--one .offer__book--two--item .circle {
+        margin-left: 20px;
+    }
+    .offer__book--main--two .offer__book--two .offer__book--one--item h4 {
+        font-size: 22px;   
+    }
+    .offer__book--main--two .offer__book--two .offer__book--one--item h6 {
+        font-size: 14px; 
+    }
+    .offer__book--main--two .offer__book--two .offer__book--one--item h3 {
+        font-size: 18px;
+    }
+    .offer__book--main--two .offer__book--two .offer__book--one--item h3 span {
+        font-size: 14px;
+    }
+    .offer__book--main--two .offer__book--two .offer__book--two--item {
+        margin-left: 0px;
+    }
+    .offer__book--main--two .offer__book--two {
+        width: 255px;
+        height: 160px;
+        margin-right: 10px;
+    }
     .offer__book--main--three .offer__book {
-        width: 310px;
-        height: 178px;
-        padding: 10px;
+        width: 512px;
+        height: 160px;
+
+    }
+    .offer__book--main--two .offer__book--two .offer__book--two--item .circle {
+        margin-left: 20px;
+    }
+    .offer__book--main--three .offer__book .offer__book--one--item h4 {
+        font-size: 22px;
+    }
+    .offer__book--main--three .offer__book .offer__book--one--item h6 {
+        font-size: 12px;
+    }
+    .offer__book--main--three .offer__book .offer__book--one--item h3 {
+        font-size: 18px;
+    }
+    .offer__book--main--three .offer__book .offer__book--one--item h3 span {
+        font-size: 14px;
     }
 
-    .offer__book--main--three .offer__book .offer__book--two--item {
-        margin-left: 44px;
+    /* category part start */
+    #category {
+        padding: 40px 10px 80px 10px;
+    }
+    .second__head h5 {
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+    .second__head h3 {
+        font-size: 30px;
+        margin-bottom: 8px;
+    }
+    .cat__button button {
+        font-size: 12px;
+    }
+    .cat__button {
+        height: 34px;
+        width: 298px;
+        margin-left: 13px;
+    }
+    .row {
+        --bs-gutter-x: -2.5rem;    
+    }
+    #category .category__main .category__item .cat__text h2 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    #category .category__main .category__item {
+        margin-bottom: 15px;
+    }
+    
+    #category .category__main .category__item .last__part .last__icon i {
+        margin-left: 190px;
     }
 
-
-
+    /* update news part start */
+    #update__news {
+        padding: 40px 0px 75px 0;
+    }
+    .common__head h5 {
+        font-size: 22px;
+    }
+    .common__head h2 {
+        font-size: 30px;
+    }
 }
