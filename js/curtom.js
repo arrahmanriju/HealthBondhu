@@ -6,7 +6,7 @@ $(function(){
 
         var scrolling = $(this).scrollTop();
 
-        if( scrolling > 500){
+        if( scrolling > 50){
             $('#navbar').addClass('nav__back');
         }
         else{

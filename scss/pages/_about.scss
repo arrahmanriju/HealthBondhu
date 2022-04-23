@@ -1,0 +1,155 @@
+#about__page--banner {
+    padding: 195px 0px 310px;
+    margin-top: 310px;
+    position: relative;
+    z-index: 1;
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(44, 98, 214, 0.25);
+        z-index: -1;
+    }
+
+    .banner-text {
+        text-align: center;
+
+        & h2 {
+            font-family: 'Oswald', sans-serif;
+            font-size: 72px;
+            font-weight: 700;
+        }
+
+        & h5 {
+            font-family: 'Roboto', sans-serif;
+            font-size: 24px;
+            font-weight: 400;
+        }
+
+    }
+
+    .ab__shape {
+        position: absolute;
+    }
+
+    .one {
+        top: 170px;
+        left: 600px;
+    }
+
+    .two {
+        top: 290px;
+        left: 890px;
+    }
+
+    .three {
+        top: 390px;
+        left: 300px;
+    }
+}
+
+// about health part start
+#about__health {
+    padding: 139px 0;
+
+    .about__health--text {
+        & h4 {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 36px;
+            font-weight: 600;
+            color: #000000;
+        }
+
+        & h3 {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 36px;
+            font-weight: 600;
+            color: #2C62D6;
+            margin-bottom: 12px;
+        }
+
+        & p {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            color: #000000;
+            line-height: 200%;
+        }
+    }
+}
+
+// mission part start
+#mission {
+    background-color: #F6F5FF;
+    padding: 225px 0;
+    position: relative;
+
+    .mission__shape {
+        position: absolute;
+        top: 260px;
+        right: 655px;
+    }
+
+    .mission--text {
+        padding: 70px;
+
+        & h4 {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 36px;
+            font-weight: 600;
+            color: #000000;
+        }
+
+        & h3 {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 36px;
+            font-weight: 600;
+            color: #2C62D6;
+            margin-bottom: 12px;
+        }
+
+        & p {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            color: #000000;
+            line-height: 200%;
+        }
+    }
+}
+
+// vission part start
+#vission {
+    padding: 139px 0;
+    
+
+    .vission--text {
+        margin-top: 70px;
+
+        & h4 {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 36px;
+            font-weight: 600;
+            color: #000000;
+        }
+
+        & h3 {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 36px;
+            font-weight: 600;
+            color: #2C62D6;
+            margin-bottom: 12px;
+        }
+
+        & p {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            color: #000000;
+            line-height: 200%;
+        }
+    }
+}

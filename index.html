@@ -20,7 +20,7 @@
 
 <body>
     <!-- navbar part start -->
-    <section id="navbar">
+    <section id="head">
         <div class="container">
             <div class="navbar__main">
                 <div class="logo">
@@ -38,7 +38,11 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
 
+    <section id="navbar">
+        <div class="container">
             <div class="menu__bar">
                 <nav class="navbar navbar-expand-lg">
                     <div class="menu">
@@ -49,52 +53,52 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNavDropdown">
                             <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Coupon</a>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Our Comapny
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                                        <li><a class="dropdown-item" href="#">Messages</a></li>
+                                        <li><a class="dropdown-item" href="#">Collaborations</a></li>
+                                        <li><a class="dropdown-item" href="#">Press Room</a></li>
+                                        <li><a class="dropdown-item" href="#">Company Brochure</a></li>
+                                        <li><a class="dropdown-item" href="#">Career</a></li>
+                                    </ul>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
                                         role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Featured Service
+                                        Our Services
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        <li><a class="dropdown-item" href="#">At Home</a> </li>
+                                        <li><a class="dropdown-item" href="#">At Platform</a></li>
+                                        <li><a class="dropdown-item" href="#">At Centers</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
+                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Our Partners
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item" href="#">Partners Network</a></li>
+                                        <li><a class="dropdown-item" href="#">Partnership Category</a></li>
+                                        <li><a class="dropdown-item" href="#">Why partner with us?</a></li>
+                                        <li><a class="dropdown-item" href="#">Become a Partner</a></li>
                                     </ul>
                                 </li>
 
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Consultations</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Packages
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
-                                </li>
-
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
-                                        role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Best Deals
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
+                                    <a class="nav-link" href="#"> Deals & Offers</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Self checkups</a>
+                                    <a class="nav-link" href="#">Health Community </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Health Shop</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Contact</a>
@@ -633,8 +637,8 @@
         <div class="container">
             <div class="update__main">
                 <div class="row">
-                    <div class="col-lg-3">
-                        <div class="update-card--one col-6">
+                    <div class="col-lg-3 col-6">
+                        <div class="update-card--one">
                             <img src="images/update1.png" alt="update" class="img-fluid w-100">
                             <div class="update-text">
                                 <h2>Home Call Health Care <br> Service</h2>
@@ -644,8 +648,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-3">
-                        <div class="update-card--two col-6">
+                    <div class="col-lg-3 col-6">
+                        <div class="update-card--two">
                             <img src="images/update2.png" alt="update" class="img-fluid w-100">
                             <div class="update-text">
                                 <h2>Medical Service At Your <br> door</h2>

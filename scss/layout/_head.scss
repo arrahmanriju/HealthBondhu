@@ -1,16 +1,7 @@
 //====================== Head__part--start
-#navbar {
+#head {
     background-color: #2C62D6;
-    padding: 20px 0;
-    position: fixed;
-    z-index: 99;
-    top: 0px;
-    width: 100%;
-
-    &.nav__back {
-        background-color: #0e45bb;
-    }
-
+    padding: 20px 0 0 0;
     .navbar__main {
         display: flex;
         justify-content: space-between;
@@ -28,9 +19,24 @@
             }
         }
     }
+}
+
+#navbar {
+    position: fixed;
+    z-index: 99;
+    top: 96px;
+    width: 100%;
+    background-color: #2C62D6;
+    padding: 0;
+    &.nav__back {
+        background-color: #0e45bb;
+    }
+    &#navbar.nav__back{
+        top: 0;
+    }
 
     .menu__bar {
-        margin-top: 26px;
+        margin-top: 0px;
 
         .menu {
             ul {

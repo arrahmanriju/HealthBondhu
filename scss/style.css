@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Oxanium:wght@600&family=Poppins:wght@400;500;800&family=Roboto:wght@400;500;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Oswald:wght@700&family=Oxanium:wght@600&family=Poppins:wght@400;500;800&family=Roboto:wght@400;500;900&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -1362,20 +1362,12 @@ a {
   font-size: 28px;
 }
 
-#navbar {
+#head {
   background-color: #2C62D6;
-  padding: 20px 0;
-  position: fixed;
-  z-index: 99;
-  top: 0px;
-  width: 100%;
+  padding: 20px 0 0 0;
 }
 
-#navbar.nav__back {
-  background-color: #0e45bb;
-}
-
-#navbar .navbar__main {
+#head .navbar__main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1385,11 +1377,11 @@ a {
   border-bottom: #548BFF 2px solid;
 }
 
-#navbar .navbar__main .nav__text {
+#head .navbar__main .nav__text {
   margin-bottom: 35px;
 }
 
-#navbar .navbar__main .nav__text p {
+#head .navbar__main .nav__text p {
   font-family: 'Roboto';
   font-size: 18px;
   font-weight: 400;
@@ -1397,8 +1389,25 @@ a {
   color: #fff;
 }
 
+#navbar {
+  position: fixed;
+  z-index: 99;
+  top: 96px;
+  width: 100%;
+  background-color: #2C62D6;
+  padding: 0;
+}
+
+#navbar.nav__back {
+  background-color: #0e45bb;
+}
+
+#navbar#navbar.nav__back {
+  top: 0;
+}
+
 #navbar .menu__bar {
-  margin-top: 26px;
+  margin-top: 0px;
 }
 
 #navbar .menu__bar .menu ul li {
@@ -1587,5 +1596,319 @@ a {
 
 #process .process__content {
   margin-top: 50px;
+}
+
+#about__page--banner {
+  padding: 195px 0px 310px;
+  margin-top: 310px;
+  position: relative;
+  z-index: 1;
+}
+
+#about__page--banner .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(44, 98, 214, 0.25);
+  z-index: -1;
+}
+
+#about__page--banner .banner-text {
+  text-align: center;
+}
+
+#about__page--banner .banner-text h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+}
+
+#about__page--banner .banner-text h5 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+#about__page--banner .ab__shape {
+  position: absolute;
+}
+
+#about__page--banner .one {
+  top: 170px;
+  left: 600px;
+}
+
+#about__page--banner .two {
+  top: 290px;
+  left: 890px;
+}
+
+#about__page--banner .three {
+  top: 390px;
+  left: 300px;
+}
+
+#about__health {
+  padding: 139px 0;
+}
+
+#about__health .about__health--text h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: #000000;
+}
+
+#about__health .about__health--text h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: #2C62D6;
+  margin-bottom: 12px;
+}
+
+#about__health .about__health--text p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 200%;
+}
+
+#mission {
+  background-color: #F6F5FF;
+  padding: 225px 0;
+  position: relative;
+}
+
+#mission .mission__shape {
+  position: absolute;
+  top: 260px;
+  right: 655px;
+}
+
+#mission .mission--text {
+  padding: 70px;
+}
+
+#mission .mission--text h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: #000000;
+}
+
+#mission .mission--text h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: #2C62D6;
+  margin-bottom: 12px;
+}
+
+#mission .mission--text p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 200%;
+}
+
+#vission {
+  padding: 139px 0;
+}
+
+#vission .vission--text {
+  margin-top: 70px;
+}
+
+#vission .vission--text h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: #000000;
+}
+
+#vission .vission--text h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: #2C62D6;
+  margin-bottom: 12px;
+}
+
+#vission .vission--text p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 200%;
+}
+
+#messages__page--banner {
+  padding: 195px 0px 310px;
+  margin-top: 310px;
+  position: relative;
+  z-index: 1;
+}
+
+#messages__page--banner .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(44, 98, 214, 0.25);
+  z-index: -1;
+}
+
+#messages__page--banner .banner-text {
+  text-align: center;
+}
+
+#messages__page--banner .banner-text h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 72px;
+  font-weight: 700;
+}
+
+#messages__page--banner .banner-text h5 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+#messages__page--banner .ab__shape {
+  position: absolute;
+}
+
+#messages__page--banner .one {
+  top: 170px;
+  left: 585px;
+}
+
+#messages__page--banner .two {
+  top: 290px;
+  left: 890px;
+}
+
+#messages__page--banner .three {
+  top: 390px;
+  left: 300px;
+}
+
+#massages__managing {
+  padding: 161px 0;
+}
+
+#massages__managing .massages__managing--img {
+  margin-top: 120px;
+}
+
+#massages__managing .massages__managing--text h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+#massages__managing .massages__managing--text h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: #2C62D6;
+  margin-bottom: 48px;
+}
+
+#massages__managing .massages__managing--text p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 200%;
+  padding-right: 60px;
+}
+
+#massages__managing .last__text {
+  margin-top: 28px;
+}
+
+#massages__managing .last__text h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+#massages__managing .last__text h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 6px;
+}
+
+#massages__managing .last__text h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+#massages__chief {
+  padding: 161px 0;
+}
+
+#massages__chief .massages__chief--img {
+  margin-top: 120px;
+}
+
+#massages__chief .massages__chief--text h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+#massages__chief .massages__chief--text h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  color: #2C62D6;
+  margin-bottom: 48px;
+}
+
+#massages__chief .massages__chief--text p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 200%;
+}
+
+#massages__chief .last__text {
+  margin-top: 28px;
+}
+
+#massages__chief .last__text h4 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+#massages__chief .last__text h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 6px;
+}
+
+#massages__chief .last__text h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
 }
 /*# sourceMappingURL=style.css.map */
